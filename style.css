@@ -928,12 +928,13 @@ img.image-failed {
     align-items: center;
     justify-content: center;
     width: 100%;
+    gap: clamp(20px, 10vw, 200px);
 }
 
 .credentials-logos img {
     display: block;
-    width: 200px;
-    max-width: 20%;
+    width: 150px;
+    max-width: 10%;
     height: auto;
 }
 
